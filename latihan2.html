@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>PAGE 2</title>
+    </head>
+    <body>
+        <div>INI DIV</div>
+        <!-- <div style="background-color: aqua;">INI DIV</div> -->
+        <span>INI SPAN</span>
+        <!-- <span style="background-color: aqua;">INI SPAN</span>
+    
+        <div style="text-align: center;">JUDUL</div>
+        <div style="display: flex; background-color: aqua;">
+            <div style="width: 30%;">SIDE BAR</div>
+            <div style="width: 70%;">KONTEN UTAMA</div>
+        </div> -->
+
+        <br>
+        
+        <div>
+            <label for="id_nama">nama</label>
+            <input type="text" placeholder="masukan nama, ex: Hanif" name="nama" id="id_nama">
+        </div>
+        <div>
+            <label for="id_password">Password</label>
+            <input type="password" name="password" id="id_password">
+        </div>
+        <div>
+            <label for="id_jenisk">Jenis Kelamin</label>
+            <input type="radio" name="jenis kelamin" id="id_jenisk" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jenis kelamin" id="id_jenisk" value="Perempuan"> Perempuan
+        </div>
+        <div>
+            <label for="id_hobi">Hidden</label>
+            <input type="checkbox" name="hobi" id="id_hobi" value="olahraga"> Olahraga
+            <input type="checkbox" name="hobi" id="id_hobi" value="game"> Bermain Game
+            <input type="checkbox" name="hobi" id="id_hobi" value="coding"> Ngoding
+            <input type="checkbox" name="hobi" id="id_hobi" value="desain"> Ngedesign
+        </div>
+        <div>
+            <label for="id_hp">Telepon</label>
+            <input type="number" name="telepon" id="id_hp" min="0" max="100">    
+        </div>
+        <div>
+            <label for="id_email">Email</label>
+            <input type="email" name="email" id="id_email">
+        </div>
+        <div>
+            <label for="id_hidden">Hidden</label>
+            <input type="hidden" name="id" id="id_hidden" value="c2c3r32c31">
+        </div>
+        <div>
+            <label for="id_pendidikan">Pendidikan</label>
+            <select name="pendidikan" id="id_pendidikan">
+                <option value="" disabled selected>Pilih salah satu</option>
+                <option value="sd">SD</option>
+                <option value="smp">SMP</option>
+                <option value="sma">SMA/MA/SMK</option>
+                <option value="d1">D1</option>
+            </select>
+        </div>
+        <div>
+            <label for="id_pendidikan">Bahasa Pemrograman yang dikuasai</label>
+            <select name="pendidikan" id="id_pendidikan">
+                <optgroup label="Web Development">
+                    <option value="PHP">PHP</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                </optgroup>
+                <optgroup label="Mobile Development">
+                    <option value="Kotlin">Kotlin</option>
+                    <option value="java">Java</option>
+                    <option value="flutter">Flutter dan Dart</option>
+                    <option value="react">React Native</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="id_bahasa">Bahasa Pemrograman Yang Disukai</label>
+            <input type="text" list="bahasapemrograman" name="bahasapemrograman1">
+            <datalist id="bahasapemrograman">
+                <option value="PHP">PHP</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Kotlin">Kotlin</option>
+                <option value="HTML">HTML</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="id_bio">Biodata</label>
+            <textarea name="biodata" id="id_bio" cols="30" rows="10">
+ini value bawaan dari textarea
+            </textarea>
+        </div>
+        <div>
+            <input type="button" name="tombol_biasa" value="TOMBOL BIASA">
+            <input type="reset" name="tombol_reset" value="TOMBOL RESET">
+            <input type="submit" name="tombol_submit" value="TOMBOL SUBMIT">
+        </div>
+        <div>
+            <button type="button" name="btn_biasa">TOMBOL BIASA</button>
+            <button type="reset" name="btn_reset">TOMBOL RESET</button>
+            <button type="submit" name="btn_submit">TOMBOL SUBMIT</button>
+        </div>
+
+        <a href="latihan3.html">page 3</a>
+        <a href="latihan1.html">page 1</a>
+    </body>
+</html>
